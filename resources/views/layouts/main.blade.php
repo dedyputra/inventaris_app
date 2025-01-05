@@ -73,6 +73,7 @@
             <div class="app-content">
                 <!--begin::Container-->
                 <div class="container-fluid">
+                    @yield('content')
                     <!--begin::Row-->
                     <div class="row">
                         <!--begin::Col-->
@@ -160,15 +161,8 @@
                                     More info <i class="bi bi-link-45deg"></i>
                                 </a>
                             </div>
-                            <!--end::Small Box Widget 4-->
                         </div>
-                        <!--end::Col-->
                     </div>
-                    <!--end::Row-->
-
-                    <!--begin::Row-->
-
-                    <!-- /.row (main row) -->
                 </div>
                 <!--end::Container-->
             </div>
